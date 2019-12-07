@@ -1,0 +1,64 @@
+.bit-container {
+    position: relative;
+    padding: 1.5rem 2rem 1.1rem;
+    border-color: black;
+    border-style: solid;
+    border-width: 6px;
+    margin-bottom: 14px;
+}
+
+.bit-container.special {
+    padding: 1.5rem 2rem 0rem;
+}
+
+.title {
+    display: table;
+    padding: 0 0.5rem;
+    margin: -1.86rem 0 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.bit-container.Stardew-Valley {
+    background-color: #f3b46c;
+    border-color: #e07d05;
+    border-left-color: #ac4c05;
+    border-bottom-color: #ac4c05;
+    color: #000000;
+}
+
+.title.title-Stardew-Valley {
+    background-color: #f3b46c;
+}
+
+img.perfil-img {
+    border: 4px solid #e07d05;
+    border-left: 4px solid #ac4c05;
+    border-bottom: 4px solid #ac4c05;
+}
+
+
+/*----------------------------------Barra de progreso----------------------------------*/
+
+.bit-progress {
+    border-image-source: url('../img/btn-border.svg');
+    border-image-slice: 15;
+    border-image-outset: 3;
+    border-image-width: 5;
+    width: 40%;
+    height: 100%;
+    padding: 4px;
+    background-color: transparent;
+    /*Debe ser el fondo*/
+}
+
+.bit-progress::-moz-progress-bar {
+    background-color: #83cb53;
+}
+
+
+/*---------------------------*/
+
+div.row {
+    margin-bottom: 7px;
+}

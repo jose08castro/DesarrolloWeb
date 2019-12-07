@@ -1,0 +1,21 @@
+.bit-btn {
+    border-radius: 2px;
+    border-width: 1px;
+    border-image-source: url('../img/btn-border.svg');
+    border-image-slice: 20;
+    border-image-outset: 3;
+    border-image-width: 5;
+    text-align: center;
+    padding: 6px 8px;
+}
+
+.bit-btn.red {
+    color: #fff;
+    background-color: #e76e55;
+    box-shadow: inset -4px -4px #8c2022;
+}
+
+.bit-btn.red:hover {
+    background-color: #ce372b;
+    box-shadow: inset -6px -6px #8c2022;
+}
