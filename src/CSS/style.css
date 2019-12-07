@@ -10,7 +10,9 @@ samp {
 body {
     background-image: url('../img/background.png');
     background-size: cover;
-    color: #FFFFFF;
+    background-position: center;
+    background-attachment: fixed;
+    color: #000000;
     margin-top: 16px;
     margin-left: 37px;
     margin-right: 37px;
@@ -23,4 +25,9 @@ h1 {
 
 ul {
     padding-left: 0px;
+    list-style-type: square;
+}
+
+div.row {
+    margin-bottom: 7px;
 }

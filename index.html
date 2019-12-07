@@ -12,9 +12,7 @@
 
     <link rel="icon" href="src/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="src/CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="src/CSS/button.css">
-    <link rel="stylesheet" type="text/css" href="src/CSS/container.css">
+    <link rel="stylesheet" type="text/css" href="src/CSS/CSS-Index.css">
 
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 
@@ -26,7 +24,9 @@
 <body>
     <h1>Introducción al Desarrollo de Páginas Web</h1>
     <div class="bit-container Stardew-Valley">
-        <h2 class="title title-Stardew-Valley">INFORMACIÓN DEL CURSO</h2>
+        <h2 class="title title-Stardew-Valley">
+            <img src="./src/img/Full-Star.svg" alt=""> INFORMACIÓN DEL CURSO
+        </h2>
         <ul>
             <li>Código de curso: IC-8057</li>
             <li>Nombre del curso: Introducción al desarrollo de páginas web</li>
@@ -40,16 +40,23 @@
     </div>
 
     <div class="bit-container Stardew-Valley">
-        <h2 class="title title-Stardew-Valley">PERFIL</h2>
+        <h2 class="title title-Stardew-Valley">
+            PERFIL
+        </h2>
         <div class="row">
             <div class="col-sm">
-                <img class="perfil-img" src="./src/img/PixelProfile.JPG" alt="Foto de perfil del creador de la página" height="100%" width="100%">
+                <img class="perfil-img" src="./src/img/PixelProfile.JPG" alt="Foto de perfil del creador de la página" height="80%" width="80%" style="margin-bottom: 10px">
+                <br>
+                <img src="./src/img/Heart.svg" widht="40px" height="40px" alt=""></img>
+                <img src="./src/img/Heart.svg" widht="40px" height="40px" alt=""></img>
+                <img src="./src/img/Half-Heart.svg" widht="40px" height="40px" alt=""></img>
+                <img src="./src/img/Empty-Heart.svg" widht="40px" height="40px" alt=""></img>
                 <!-- <img class="perfil-img" src="./src/img/Perfil.jpg" alt="Foto de perfil del creador de la página" height="215px" width="188px"> -->
             </div>
             <div class="col-sm-9">
                 <div class="row">Estudiante: José Evelio Castro Quesada</div>
                 <br>
-                <div class="row">Lv22(años)- EXP &nbsp<progress class="bit-progress" value="50" max="365"></progress></div>
+                <div class="row">Lv22(años)- EXP &nbsp<progress class="bit-progress red-bar" value="50" max="365"></progress></div>
                 <br>
                 <div class="row">Mascotas:
                     <img src="./src/img/Dog-1.png" alt="">&nbsp
@@ -64,29 +71,31 @@
         <div class="col-sm-4">
             <div class="bit-container Stardew-Valley">
                 <h2 class="title title-Stardew-Valley">Aficiones</h2>
-                <div class="row">Basquetbol&nbsp<progress class="bit-progress" value="3" max="10"></progress></div>
-                <div class="row">Jardinería&nbsp<progress class="bit-progress" value="5" max="10"></progress></div>
-                <div class="row">Literatura&nbsp<progress class="bit-progress" value="9" max="10"></progress></div>
-                <div class="row">Psicología&nbsp<progress class="bit-progress" value="5" max="10"></progress></div>
-                <div class="row">Streaming &nbsp<progress class="bit-progress" value="10" max="10"></progress></div>
+                <div class="row">Básquetbol&nbsp<progress class="bit-progress red-bar" value="3" max="10"></progress></div>
+                <div class="row">Jardinería&nbsp<progress class="bit-progress green-bar" value="5" max="10"></progress></div>
+                <div class="row">Literatura&nbsp<progress class="bit-progress green-bar" value="9" max="10"></progress></div>
+                <div class="row">Psicología&nbsp<progress class="bit-progress green-bar" value="5" max="10"></progress></div>
+                <div class="row">Streaming &nbsp<progress class="bit-progress green-bar" value="10" max="10"></progress></div>
             </div>
         </div>
 
         <div class="col-sm-4">
             <div class="bit-container Stardew-Valley">
                 <h2 class="title title-Stardew-Valley">Estudios faltantes</h2>
-                <div class="row">Bachiller &nbsp<progress class="bit-progress" value="35" max="43"></progress></div>
-                <div class="row">Semestre 4&nbsp<progress class="bit-progress" value="4" max="5"></progress></div>
-                <div class="row">Semestre 6&nbsp<progress class="bit-progress" value="4" max="6"></progress></div>
-                <div class="row">Semestre 7&nbsp<progress class="bit-progress" value="1" max="5"></progress></div>
-                <div class="row">Semestre 8&nbsp<progress class="bit-progress" value="0" max="1"></progress></div>
+                <div class="row">Bachiller &nbsp<progress class="bit-progress green-bar" value="35" max="43"></progress></div>
+                <div class="row">Semestre 4&nbsp<progress class="bit-progress green-bar" value="4" max="5"></progress></div>
+                <div class="row">Semestre 6&nbsp<progress class="bit-progress green-bar" value="4" max="6"></progress></div>
+                <div class="row">Semestre 7&nbsp<progress class="bit-progress red-bar" value="1" max="5"></progress></div>
+                <div class="row">Semestre 8&nbsp<progress class="bit-progress green-bar" value="0" max="1"></progress></div>
             </div>
         </div>
 
         <div class="col-sm-4">
             <div class="bit-container Stardew-Valley special">
-                <h2 class="title title-Stardew-Valley">Experiencia Laboral</h2>
-                <ul>
+                <h2 class="title title-Stardew-Valley">
+                    Experiencia Laboral
+                </h2>
+                <ul class="experiencia-laboral">
                     <li>Asistente técnico de capacitación - TEC Digital</li>
                     <br>
                     <li>Practicante de contabiliad - Hotel los Crestones</li>

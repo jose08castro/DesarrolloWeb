@@ -5,6 +5,7 @@
     border-style: solid;
     border-width: 6px;
     margin-bottom: 14px;
+    opacity: 0.9;
 }
 
 .bit-container.special {
@@ -31,34 +32,14 @@
     background-color: #f3b46c;
 }
 
+h2.title img {
+    margin-top: -10px;
+    height: 25px;
+    width: 25px;
+}
+
 img.perfil-img {
     border: 4px solid #e07d05;
     border-left: 4px solid #ac4c05;
     border-bottom: 4px solid #ac4c05;
-}
-
-
-/*----------------------------------Barra de progreso----------------------------------*/
-
-.bit-progress {
-    border-image-source: url('../img/btn-border.svg');
-    border-image-slice: 15;
-    border-image-outset: 3;
-    border-image-width: 5;
-    width: 40%;
-    height: 100%;
-    padding: 4px;
-    background-color: transparent;
-    /*Debe ser el fondo*/
-}
-
-.bit-progress::-moz-progress-bar {
-    background-color: #83cb53;
-}
-
-
-/*---------------------------*/
-
-div.row {
-    margin-bottom: 7px;
 }
