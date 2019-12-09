@@ -1,11 +1,12 @@
 /*----------------------------------Barra de progreso----------------------------------*/
 
 .bit-progress {
+    border-style: solid;
     border-image-source: url('../img/btn-border.svg');
     border-image-slice: 15;
     border-image-outset: 3;
     border-image-width: 5;
-    width: 40%;
+    width: 80%;
     height: 100%;
     padding: 4px;
     background-color: transparent;
@@ -20,16 +21,10 @@
     background-color: #A81000;
 }
 
-.bit-progress.green-bar::-webkit-progress-value {
+.bit-progress.green-bar::-webkit-progress-bar {
     background-color: #83cb53;
 }
 
-.bit-progress.red-bar::-webkit-progress-value {
+.bit-progress.red-bar::-webkit-progress-bar {
     background-color: #A81000;
 }
-
-
-/* &::-ms-fill {
-    background-color: $color;
-    border: none;
-} */
