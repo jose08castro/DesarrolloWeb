@@ -20,7 +20,7 @@
     background-color: #A81000;
 }
 
-.bit-progress.red-bar::-webkit-progress-value {
+.bit-progress.green-bar::-webkit-progress-value {
     background-color: #83cb53;
 }
 
