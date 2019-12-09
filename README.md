@@ -1,3 +1,3 @@
 # DesarrolloWeb
 
-Puede accederse en el siguietnte enlace: https://jose08castro.github.io/DesarrolloWeb/
+Puede acceder a la página acceda al siguietnte enlace: https://jose08castro.github.io/DesarrolloWeb/
