@@ -51,3 +51,19 @@ img.icon-heart {
         height: 17%;
     }
 }
+
+a:link {
+    color: #7C7C7C;
+}
+
+a:visited {
+    color: #A81000;
+}
+
+a:hover {
+    color: #D8D8D8;
+}
+
+a:active {
+    color: #004058;
+}

@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+    border: 5px solid #ffffff;
+    margin-bottom: 100px;
+}
+
+th {
+    text-align: center;
+    padding-left: 3px;
+}
+
+td {
+    font-size: 10px;
+    padding-left: 12px;
+}
+
+th,
+td {
+    width: 25%;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    background-color: #f3b46c;
+    border: 5px solid #ac4c05;
+    word-wrap: break-word;
+}
+
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+
+/* .nes-table {
+    table-layout: fixed;
+    background-color: #FFFFFF;
+}
+
+th,
+td {
+    position: relative;
+    padding: 0.5rem;
+    
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0 0.25em 0.25em 0;
+} */
