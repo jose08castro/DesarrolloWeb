@@ -19,3 +19,11 @@
 .bit-progress.red-bar::-moz-progress-bar {
     background-color: #A81000;
 }
+
+.bit-progress.red-bar::-webkit-progress-bar {
+    background-color: #83cb53;
+}
+
+.bit-progress.red-bar::-webkit-progress-bar {
+    background-color: #A81000;
+}
