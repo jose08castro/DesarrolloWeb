@@ -20,10 +20,16 @@
     background-color: #A81000;
 }
 
-.bit-progress.red-bar::-webkit-progress-bar {
+.bit-progress.red-bar::-webkit-progress-value {
     background-color: #83cb53;
 }
 
-.bit-progress.red-bar::-webkit-progress-bar {
+.bit-progress.red-bar::-webkit-progress-value {
     background-color: #A81000;
 }
+
+
+/* &::-ms-fill {
+    background-color: $color;
+    border: none;
+} */
