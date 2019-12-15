@@ -1,0 +1,63 @@
+body {
+    background-color: #d0d0d0;
+    text-align: center;
+}
+
+#tamanno {
+    width: 40%;
+    display: inline-block;
+}
+
+#calendario {
+    background-color: #f5f5f7;
+    border: 1px solid #b1aeae;
+    text-align: center;
+}
+
+#anterior {
+    width: 50%;
+    float: left;
+}
+
+#posterior {
+    width: 50%;
+    float: right;
+}
+
+#diasc {
+    border: 1px solid #b1aeae;
+    width: 100%;
+}
+
+#fila0 {
+    background-color: #5ecdec;
+    color: #92159f;
+}
+
+#fechaactual {
+    font-weight: bold;
+    text-align: center;
+    background-color: #fffafa;
+    border: 1px solid #b1aeae;
+}
+
+#buscafecha {
+    background-color: #663366;
+    text-align: center;
+    color: #9bf5ff;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+select,
+input {
+    background-color: #9bf5ff;
+    color: #663366;
+    font-weight: bold;
+    border: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
