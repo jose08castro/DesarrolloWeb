@@ -14,9 +14,9 @@ function getData() {
     email = document.getElementById('emailF').value;
     phone = document.getElementById('phoneF').value;
     // date = document.getElementById('dateF').value;
-    emptyData(name, 'name');
-    emptyData(lastname, 'lastname');
-    emptyData(username, 'username');
+    bandera = emptyData(name, 'name');
+    bandera = emptyData(lastname, 'lastname');
+    bandera = emptyData(username, 'username');
     if (!regexPassword.test(password)) {
         bandera = false;
         document.getElementById('passwordFail').innerHTML = 'La contraseña debe contener al menos una mayúscula, minúscula, un número y ser de 8 caractéres de largo';
@@ -35,8 +35,9 @@ function getData() {
     } else {
         emptyData(phone, 'phone')
     }
-    if (bandera) {
+    if (bandera != false) {
         alert('Éxito');
+        window.location.href = ('login.html');
     }
 }
 
@@ -44,6 +45,7 @@ function emptyData(pData, pElement) {
     element = pElement + 'Fail';
     if (pData == '') {
         document.getElementById(element).innerHTML = 'Éste elemento no puede estar vacío';
+        return false;
     } else {
         document.getElementById(element).innerHTML = '';
     }
